@@ -1,0 +1,70 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font: 400 20px/1.8 'Alata', sans-serif;;
+    color: White;
+  }
+  .caption {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+  }
+  .border {
+    background-color: none;
+    color: White;
+    padding: 18px;
+    font-size: 40px;
+    letter-spacing: 10px;
+  }
+.intro, .cake,.equipment, .ingredients, .prep, .baking, .decor {
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: cover;
+    min-height: 70%;
+    background-attachment: fixed;
+  }
+  .intro {
+    background-image: url("intro.jpg");
+    min-height: 100%;
+  }
+  .cake {
+    background-image: url("cake.jpg");
+    min-height: 100%;
+  }
+  .equipment{
+      background-image: url("equipment.jpg");
+      min-height: 100%;
+  }
+  .ingredients {
+      background-image: url("ingredients.jpg");
+  }
+  .prep {
+    background-image: url("prep.jpg");
+    min-height: 100%;
+  }
+  .baking{
+      background-image: url("baking.jpg");
+      min-height: 100%;
+  }
+  .decor {
+      background-image: url("decor.jpg");
+  }
+  h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color: white;
+    text-align:center
+  }
+  .textSection {
+    background-color: black;
+    padding:50px 80px 50px 80px;
+  }
+  @media only screen and (max-device-width: 1024px) {
+    .intro, .cake,.equipment, .ingredients, .prep, .baking, .decor {
+        background-attachment: scroll;
+    }
+}
